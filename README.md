@@ -17,14 +17,12 @@ You must need overwrite this method,
 you can overwrite  set_post_type_labels,set_post_type_args function too.
 
 Example
-`
+
 namespace Vendor_Name\Plugin_Name\Admin;// You can remove this line if you are not using namespace
 
 use Vendor_Name\Plugin_Name\Abs\CustomPostType;// You can remove this line if you are not using namespace
-`
-`
-<?php
 
+`
 namespace Vendor_Name\Plugin_Name\Admin;
 
 use Vendor_Name\Plugin_Name\Abs\CustomPostType;
