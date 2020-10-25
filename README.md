@@ -24,17 +24,11 @@ use Vendor_Name\Plugin_Name\Abs\CustomPostType;// You can remove this line if yo
 
 `
 namespace Vendor_Name\Plugin_Name\Admin;
-
 use Vendor_Name\Plugin_Name\Abs\CustomPostType;
-
 class Ninjagallery extends CustomPostType{
-
     function __construct(){
-    
-        parent::__construct();
-        
+        parent::__construct(); 
     }
-    
     // must use 
     
     function set_post_type_name(){
