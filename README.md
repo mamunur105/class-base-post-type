@@ -17,7 +17,7 @@ namespace Vendor_Name\Plugin_Name\Admin;// You can remove this line if you are n
 use Vendor_Name\Plugin_Name\Abs\CustomPostType;// You can remove this line if you are not using namespace
 ```
 
-
+```
 <?php
 
 namespace Vendor_Name\Plugin_Name\Admin;
