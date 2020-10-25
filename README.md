@@ -1,5 +1,6 @@
 # class-base-post-type
 Step 1 :
+
 include abstract class 'CustomPostType'
 Step 2 :
 extends The class 'CustomPostType'
