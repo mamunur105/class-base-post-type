@@ -6,7 +6,7 @@ extends The class 'CustomPostType'
 
 You must need overwrite this method,
 1. set_post_type_name
-2. Call parent __construct in your __construct function
+
 
 you can overwrite  set_post_type_labels,set_post_type_args function too.
 
