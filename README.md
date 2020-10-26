@@ -33,8 +33,38 @@ class Teammembers extends CustomPostType{
     }
 }
 ```
-With Texonomy 
+With Texonomy simple 
+```
+<?php
+namespace Vendor_Name\Plugin_Name\Admin;
 
+use Vendor_Name\Plugin_Name\Abs\CustomPostType;
+use Vendor_Name\Plugin_Name\Abs\Taxonomies;
+
+class Teammembers extends CustomPostType{
+    use Taxonomies;
+    public function initposttype(){
+        $this->register_post_type();
+        $this->add_taxonomy();
+    }
+    // must use
+    function set_post_type_name(){
+        return 'Team Member';
+    }
+    /**
+     * Texonomy Name
+     *
+     * @return Texonomy Name
+     */
+    public function set_taxonomy_name(){
+        return "member_type";
+    }
+}
+```
+
+
+
+More modification 
 ```
 <?php
 
