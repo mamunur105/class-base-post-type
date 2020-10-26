@@ -19,30 +19,18 @@ use Vendor_Name\Plugin_Name\Abs\CustomPostType;// You can remove this line if yo
 
 ```
 <?php
-
 namespace Vendor_Name\Plugin_Name\Admin;
 
 use Vendor_Name\Plugin_Name\Abs\CustomPostType;
 
-class Ninjagallery extends CustomPostType{
-    function __construct(){
-        parent::__construct();
+class Teammembers extends CustomPostType{
+    public function initposttype(){
+        $this->register_post_type();
     }
-    // must use 
+    // must use
     function set_post_type_name(){
-        return 'News';
+        return 'Team Member';
     }
-    // function set_post_type_labels(){
-    //     return array(
-    //         'menu_name'             => 'News'
-    //     );
-    // }
-    // function set_post_type_args(){
-    //     return array(
-    //         'has_archive'        => false,
-    //         'publicly_queryable' => false,
-    //     );
-    // }
 }
 ```
 With Texonomy 
