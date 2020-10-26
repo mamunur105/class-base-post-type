@@ -33,7 +33,7 @@ class Teammembers extends CustomPostType{
     }
 }
 ```
-With Texonomy simple 
+With Texonomy 
 ```
 <?php
 namespace Vendor_Name\Plugin_Name\Admin;
